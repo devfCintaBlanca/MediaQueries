@@ -1,0 +1,44 @@
+section {
+	width: 1000px;
+	height: 400px;
+	background-color: red;
+}
+#hola h1{
+	font-size: 60px;
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 40px;
+	background-color: blue;
+}
+#adios {
+	background-color: yellow;
+	height: 80px;
+}
+@media screen and (min-width: 700px) {
+    #hola {
+    	width: 200px;
+    	background-color: green;
+    	float: left;
+    }
+
+    #hola h1 {
+    	height: 40px;
+    	font-size: 40px;
+    }
+    header {
+    	font-size: 40px;
+    }
+    #adios {
+			width: 100px;
+			float: left;
+    }
+}
+
+@media (max-width: 400px){
+	#hola {
+		background-color: cyan;
+	}
+}
